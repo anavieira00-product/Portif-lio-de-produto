@@ -9,9 +9,9 @@ github:"https://github.com/anavieira00-product/Portif-lio---Marketplace",
 deploy:"https://anavieira00-product.github.io/Portif-lio---Marketplace/",
 
 images:[
-"1abertura.png",
-"1hipotesesdesolucao.png",
-"1solucao.png"
+"img/projetos/1abertura.png",
+"img/projetos/1hipotesesdesolucao.png",
+"img/projetos/1solucao.png"
 ]
 },
 {
@@ -24,9 +24,9 @@ github:"https://github.com/anavieira00-product/Portif-lio---FrotaPro-Gest-o-Prev
 deploy:"https://anavieira00-product.github.io/Portif-lio---FrotaPro-Gest-o-Preventiva-Sinistros-de-Frota/",
 
 images:[
-"2abertura.png",
-"2problemas.png",
-"2solucao.png"
+"img/projetos/2abertura.png",
+"img/projetos/2problemas.png",
+"img/projetos/2solucao.png"
 ]
 }
 ];
