@@ -14,6 +14,7 @@ images:[
 "img/projetos/1solucao.png"
 ]
 },
+
 {
 id:"02",
 title:"FrotaPro",
@@ -28,19 +29,39 @@ images:[
 "img/projetos/2problemas.png",
 "img/projetos/2solucao.png"
 ]
+},
+
+{
+id:"03",
+title:"Bartho",
+desc:"Case de Produto sobre um assistente administrativo com IA para clínicas, explorando como linguagem natural, regras de negócio e execução determinística podem resolver jornadas administrativas de ponta a ponta.",
+techs:["Product Strategy","IA","Métricas","Testes com Usuários"],
+
+github:"https://github.com/anavieira00-product/Bartho-assistente-virtual",
+deploy:"https://anavieira00-product.github.io/Bartho-assistente-virtual/",
+
+images:[
+"img/projetos/3abertura.png",
+"img/projetos/3testes.png",
+"img/projetos/3resultado.png"
+]
 }
 ];
 
+
 const grid=document.getElementById("projects-grid");
+
 
 meusProjetos.forEach((projeto,index)=>{
 
 const card=document.createElement("div");
 card.className="project-card";
 
+
 const techs=projeto.techs
 .map(t=>`<span>#${t}</span>`)
 .join("");
+
 
 const images=projeto.images
 .map((img,i)=>`
@@ -51,9 +72,11 @@ style="display:${i===0?"block":"none"}">
 `)
 .join("");
 
+
 card.innerHTML=`
 
 <div class="project-header-row">
+
 <span class="project-number">${projeto.id}</span>
 
 <div class="project-meta-links">
@@ -71,7 +94,9 @@ title="Visualizar Live">
 </a>
 
 </div>
+
 </div>
+
 
 <div class="project-info">
 
@@ -85,11 +110,13 @@ ${techs}
 
 </div>
 
+
 <div class="project-slider-container">
 
 <div class="slides-wrapper" id="slides-${index}">
 ${images}
 </div>
+
 
 ${
 projeto.images.length>1
@@ -108,7 +135,9 @@ projeto.images.length>1
 </div>
 `;
 
+
 grid.appendChild(card);
+
 
 if(projeto.images.length>1){
 
@@ -119,6 +148,7 @@ const imgs=wrapper.querySelectorAll(".slide-img");
 const prev=card.querySelector(".slide-btn.prev");
 const next=card.querySelector(".slide-btn.next");
 
+
 function updateSlide(newSlide){
 
 imgs[currentSlide].style.display="none";
@@ -127,14 +157,21 @@ currentSlide=
 (newSlide+imgs.length)%imgs.length;
 
 imgs[currentSlide].style.display="block";
+
 }
 
+
 next.addEventListener("click",()=>{
+
 updateSlide(currentSlide+1);
+
 });
 
+
 prev.addEventListener("click",()=>{
+
 updateSlide(currentSlide-1);
+
 });
 
 }
