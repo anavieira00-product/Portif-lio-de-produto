@@ -41,9 +41,8 @@ github:"https://github.com/anavieira00-product/Bartho-assistente-virtual",
 deploy:"https://anavieira00-product.github.io/Bartho-assistente-virtual/",
 
 images:[
-"img/projetos/3abertura.png",
-"img/projetos/3testes.png",
-"img/projetos/3resultado.png"
+"img/projetos/bartho personagem.png",
+"img/projetos/bartho chat.png"
 ]
 }
 ];
