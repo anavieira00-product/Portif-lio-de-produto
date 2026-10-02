@@ -591,3 +591,13 @@ height:210px
 }
 
 }
+/* Descrição da seção Projetos na mesma largura dos cards */
+#projetos .section-header{
+    width:100%;
+    max-width:none;
+}
+
+#projetos .section-header p{
+    width:100%;
+    max-width:none !important;
+}
