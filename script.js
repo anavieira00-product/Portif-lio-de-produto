@@ -3,7 +3,13 @@ const meusProjetos = [
 id:"01",
 title:"SuccessTrail",
 desc:"Case de Product Management focado em jornada pós-compra, experiência do cliente e identificação de oportunidades para reduzir atritos após a aquisição.",
-techs:["Product Discovery","Service Design","UX"],
+
+techs:[
+"Jornada Pós-Compra",
+"Mapeamento de Jornada",
+"Priorização",
+"Métricas"
+],
 
 github:"https://github.com/anavieira00-product/Portif-lio---Marketplace",
 deploy:"https://anavieira00-product.github.io/Portif-lio---Marketplace/",
@@ -19,7 +25,13 @@ images:[
 id:"02",
 title:"FrotaPro",
 desc:"Plataforma fictícia de gestão preventiva de frotas e sinistros, combinando visão computacional, evidências rastreáveis e validação humana para reduzir disputas, retrabalho e downtime.",
-techs:["Product Strategy","Legal Product","IA","Compliance"],
+
+techs:[
+"Gestão de Riscos",
+"Visão Computacional",
+"Regras de Negócio",
+"Compliance"
+],
 
 github:"https://github.com/anavieira00-product/Portif-lio---FrotaPro-Gest-o-Preventiva-Sinistros-de-Frota",
 deploy:"https://anavieira00-product.github.io/Portif-lio---FrotaPro-Gest-o-Preventiva-Sinistros-de-Frota/",
@@ -35,7 +47,13 @@ images:[
 id:"03",
 title:"Bartho",
 desc:"Case de Produto sobre um assistente administrativo com IA para clínicas, explorando como linguagem natural, regras de negócio e execução determinística podem resolver jornadas administrativas de ponta a ponta.",
-techs:["Product Strategy","IA","Métricas","Testes com Usuários"],
+
+techs:[
+"LLM + Regras",
+"Priorização de MVP",
+"Métricas de Produto",
+"Testes com Usuários"
+],
 
 github:"https://github.com/anavieira00-product/Bartho-assistente-virtual",
 deploy:"https://anavieira00-product.github.io/Bartho-assistente-virtual/",
